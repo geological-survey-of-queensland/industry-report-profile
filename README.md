@@ -1,5 +1,5 @@
-# GSQ Industry Reports Profile
-A profile (domain conceptual model +  implementation resources) for Industry Reports recieved by GSQ
+# GSQ Industry Report Profile
+A profile (domain conceptual model +  implementation resources) for mining Industry Reports recieved by GSQ
 
 * [See the model diagram](model/industry-report.pdf)
 
