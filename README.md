@@ -1,7 +1,7 @@
 # GSQ Industry Reports Profile
 A profile (domain conceptual model +  implementation resources) for Industry Reports recieved by GSQ
 
-<a href="model/industry-report.pdf"><img src="model/industry-report.pdf" style="width:500px;></a>
+<a href="model/industry-report.pdf"><img src="model/industry-report.pdf" style="width:500px; /></a>
 
 ## License
 The content of this repository is licensed for use with the [Creative Commons 4.0 License](https://creativecommons.org/licenses/by/4.0/). See the [license deed](LICENSE) for details.
