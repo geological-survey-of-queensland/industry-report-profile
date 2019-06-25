@@ -24,8 +24,8 @@ This profile is presented as a series of files that perform different roles:
 
 ## GSQ classes
 CLasses used in this profile:
-1. [Queensland Mining Permit](https://github.com/geological-survey-of-queensland/gsq-permit-profile) - the permit(s) the report relates to
-2. [GSQ Survey Profile](https://github.com/geological-survey-of-queensland/gsq-survey-profile) - if the report is the result of a survey event
+1. [Queensland Mining Permit](https://github.com/geological-survey-of-queensland/gsq-permit-profile) - used if the report relates to a permit(s)
+2. [GSQ Survey Profile](https://github.com/geological-survey-of-queensland/gsq-survey-profile) - used if the report is the result of a survey event
 
 
 ## OWL classes
