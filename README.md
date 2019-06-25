@@ -33,7 +33,7 @@ CLasses used in this profile:
 2. [dcat:Theme](https://w3c.github.io/dxwg/dcat/#Property:resource_theme) - used to categorise the resource, the GSQ themes are described as [skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)s in the vocabulary [GSQ Data Themes](http://vocabs.gsq.digital/vocabulary/gsq-data-themes)
 3. [dcat:Distribution](https://w3c.github.io/dxwg/dcat/#Class:Distribution)
 4. [dct:Location](https://w3c.github.io/dxwg/dcat/#Class:Location) - spatial coverage of the report expressed as lat/long, centroid, bounding box or simple polygon
-5. [dct:creator](https://w3c.github.io/dxwg/dcat/#Property:resource_creator) - the report agent
+5. [dct:creator](https://w3c.github.io/dxwg/dcat/#Property:resource_creator) - the author of the report
 6. [dct:publisher](https://w3c.github.io/dxwg/dcat/#Property:resource_publisher) - GSQ
 7. [dct:contactPoint](https://w3c.github.io/dxwg/dcat/#Property:resource_contact_point) - GSQ contact
 8. [dct:title](https://w3c.github.io/dxwg/dcat/#Property:resource_title) - report title
