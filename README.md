@@ -29,7 +29,7 @@ CLasses used in this profile:
 
 
 ## OWL classes
-1. [dcat:Dataset](https://w3c.github.io/dxwg/dcat/#Class:Dataset)
+1. [dcat:Dataset](https://w3c.github.io/dxwg/dcat/#Class:Dataset) - industry report is a special type of dataset
 2. [dcat:Theme](https://w3c.github.io/dxwg/dcat/#Property:resource_theme) - used to categorise the resource, the GSQ themes are described as [skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)s in the vocabulary [GSQ Data Themes](http://vocabs.gsq.digital/vocabulary/gsq-data-themes)
 3. [dcat:Distribution](https://w3c.github.io/dxwg/dcat/#Class:Distribution)
 4. [dct:Location](https://w3c.github.io/dxwg/dcat/#Class:Location) - spatial coverage of the report expressed as lat/long, centroid, bounding box or simple polygon
@@ -45,7 +45,7 @@ CLasses used in this profile:
 14. [rdfs:seeAlso](https://www.w3.org/TR/rdf-schema/#ch_seealso) - refers to secondary metadata
 15. [FOAF document](http://xmlns.com/foaf/spec/#term_Document) - a document with secondary metadata
 16. [ProperInterval](https://www.w3.org/TR/owl-time/#time:ProperInterval) - the temporal coverage of the report
-17. [dct:created](https://w3c.github.io/dxwg/dcat/#Property:resource_creator)
+17. [dct:created](https://w3c.github.io/dxwg/dcat/)
 18. [dct:issued](https://w3c.github.io/dxwg/dcat/#Property:resource_release_date) - date of formal issuance (e.g., open file publication)
 19. [dct:modified](https://w3c.github.io/dxwg/dcat/#Property:resource_update_date) - most recent date on which the item was changed, updated or modified
 
