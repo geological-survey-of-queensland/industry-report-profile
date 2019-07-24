@@ -9,6 +9,11 @@ https://www.business.qld.gov.au/industries/mining-energy-water/resources/petrole
 
 
 ## Usage
+
+<img src="model/GSQ%20Industry%20Report%20Usage.svg" style="width:800px;" alt="Resources Industry Report Usage" />  
+
+* When government issues a permit to a holder, the legislation requires a permit holder to submit reports to the Department when certain activities are performed under the conditions of the permit.
+* The reports contain knowledge of the geological resource.
 * Historically, industry reports have been lodged through [QDEX Reports](https://qdexguest.dnrm.qld.gov.au/portal/site/qdex/).
 * GDMP will deliver a new lodgement portal to replace QDEX Reports.
 * Most industry reports have a confidentiality period before becoming open file.
