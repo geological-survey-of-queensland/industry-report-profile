@@ -82,18 +82,18 @@ The vocabularies used in this profile are:
 | Submitter            | System recorded from logged-in user                   |
 | Locality             | dct:Location                                          |
 | Map References       | Not required - can be derived using spatial intersect |
-| Commodity            | Not required                                          |
-| Keywords             | Not used                                              |
-| Tenure               | Queensland Mining Permit                              |
+| Commodity            | Select from commodity vocabulary                      |
+| Keywords             | Use CKAN controlled keywords vocabulary (ideally)     |
+| Tenure               | Lookup to Queensland Mining Permit                    |
 | Tectonic             | Not required - can be derived using spatial intersect |
-| Stratigraphy         | Not required - can be derived using spatial intersect |
+| Stratigraphy         | Select from stratigraphy vocabulary?                  |
 | Age                  | Not required - can be derived using spatial intersect |
 | Date of Report       | time:ProperInterval                                   |
 | Date of Receipt      | System recorded dct:created                           |
-| Project Names        | Not recorded                                          |
-| Mines/Prospect Names | Feature of Interest                                   |
-| Well Names           | Not recorded                                          |
-| Seismic Survey Names | GSQ Survey Profile                                    |
+| Project Names        | Free text?                                            |
+| Mines/Prospect Names | Lookup from sites register?                           |
+| Well Names           | Lookup from borehole register?                        |
+| Seismic Survey Names | Lookup?                                               |
 
 
 ## License
