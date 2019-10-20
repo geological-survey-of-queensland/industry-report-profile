@@ -35,7 +35,7 @@ CLasses used in this profile:
 
 ## OWL classes
 1. [dcat:Dataset](https://w3c.github.io/dxwg/dcat/#Class:Dataset) - industry report is a special type of dataset
-2. [dcat:Theme](https://w3c.github.io/dxwg/dcat/#Property:resource_theme) - used to categorise the resource, the GSQ themes are described as [skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)s in the vocabulary [GSQ Data Themes](http://vocabs.gsq.digital/vocabulary/gsq-data-themes)
+2. [dcat:Theme](https://w3c.github.io/dxwg/dcat/#Property:resource_theme) - used to categorise the resource, the GSQ themes are described as [skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)s in the vocabulary [GSQ Data Themes](https://vocabs.gsq.digital/vocabulary/gsq-dataset-theme)
 3. [dcat:Distribution](https://w3c.github.io/dxwg/dcat/#Class:Distribution)
 4. [dct:Location](https://w3c.github.io/dxwg/dcat/#Class:Location) - spatial coverage of the report expressed as lat/long, centroid, bounding box or simple polygon
 5. [dct:creator](https://w3c.github.io/dxwg/dcat/#Property:resource_creator) - the author of the report
@@ -66,10 +66,11 @@ CLasses used in this profile:
 ## Vocabularies
 The vocabularies used in this profile are:
 1. [Resources Industry Report Type](https://vocabs.gsq.digital/vocabulary/mining-industry-report)
-2. [GSQ Data Themes](http://vocabs.gsq.digital/vocabulary/gsq-data-themes)
+2. [GSQ Dataset Theme](https://vocabs.gsq.digital/vocabulary/gsq-dataset-theme)
 3. [Earth Science Data Category](https://vocabs.gsq.digital/vocabulary/earth-science-data-category) - the category(s) of data contained in the report
-4. [Geoscience Feature of Interest](https://vocabs.gsq.digital/vocabulary/geoscience-foi)
-5. [Data Access Rights](http://vocabs.gsq.digital/vocabulary/data-access)
+4. [Geoadmin Feature](https://vocabs.gsq.digital/vocabulary/gsq-features)
+5. [Data Access Rights](https://vocabs.gsq.digital/vocabulary/data-access-rights)
+6. [Commodity](https://vocabs.gsq.digital/vocabulary/gsq-commodity)
 
 
 ## Alignment to QDEX Reports Metadata
@@ -109,6 +110,6 @@ Geological Survey of Queensland
 
 *author*:  
 **David Crosswell**  
-*Project Director - Geoscience Data Modernisation Project*  
+*Project Architect - Geoscience Data Modernisation Project*  
 Geological Survey of Queensland  
 <david.crosswell@dnrme.qld.gov.au>
