@@ -53,6 +53,8 @@ CLasses used in this profile:
 17. [dct:created](https://w3c.github.io/dxwg/dcat/)
 18. [dct:issued](https://w3c.github.io/dxwg/dcat/#Property:resource_release_date) - date of formal issuance (e.g., open file publication)
 19. [dct:modified](https://w3c.github.io/dxwg/dcat/#Property:resource_update_date) - most recent date on which the item was changed, updated or modified
+19. [prov:wasGeneratedBy](https://www.w3.org/TR/prov-o/#wasGeneratedBy) - the survey or other activity that generated the report (the completion of production of a new entity by an activity). Created as a link to that survey.
+19. [prov:wasAttributedTo](https://www.w3.org/TR/prov-o/#wasAttributedTo) - the company or individual who submitted the report (attribution is the ascribing of an entity to an agent).
 
 
 ### [Distribution](https://w3c.github.io/dxwg/dcat/#Class:Distribution) properties not shown in the diagram:
@@ -78,9 +80,9 @@ The vocabularies used in this profile are:
 |----------------------|-------------------------------------------------------|
 | Report Title         | Title                                                 |
 | Report Type          | Resources Industry Report Type                        |
-| Author Name          | dct:creator                                           |
-| Lodger               | Not required                                          |
-| Submitter            | System recorded from logged-in user                   |
+| Author Name          | dct:creator?                                          |
+| Lodger               | Recorded as logged-in-user                            |
+| Submitter            | Submitter (prov:wasAttributedTo)                      |
 | Locality             | dct:Location                                          |
 | Map References       | Not required - can be derived using spatial intersect |
 | Commodity            | Select from commodity vocabulary                      |
@@ -89,7 +91,7 @@ The vocabularies used in this profile are:
 | Tectonic             | Not required - can be derived using spatial intersect |
 | Stratigraphy         | Select from stratigraphy vocabulary?                  |
 | Age                  | Not required - can be derived using spatial intersect |
-| Date of Report       | time:ProperInterval                                   |
+| Date of Report       | time:ProperInterval (hasStartTime + hasEndTime        |
 | Date of Receipt      | System recorded dct:created                           |
 | Project Names        | Free text?                                            |
 | Mines/Prospect Names | Lookup from sites register?                           |
@@ -97,7 +99,7 @@ The vocabularies used in this profile are:
 | Seismic Survey Names | Lookup?                                               |
 
 
-## License
+## Licence
 The content of this repository is licensed for use with the [Creative Commons 4.0 License](https://creativecommons.org/licenses/by/4.0/). See the [license deed](LICENSE) for details.
 
 
