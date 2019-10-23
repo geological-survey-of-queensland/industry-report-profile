@@ -67,7 +67,7 @@ CLasses used in this profile:
 
 ## Vocabularies
 The vocabularies used in this profile are:
-1. [Resources Industry Report Type](https://vocabs.gsq.digital/vocabulary/mining-industry-report)
+1. [Georesources Report Type](https://vocabs.gsq.digital/vocabulary/georesource-report)
 2. [GSQ Dataset Theme](https://vocabs.gsq.digital/vocabulary/gsq-dataset-theme)
 3. [Earth Science Data Category](https://vocabs.gsq.digital/vocabulary/earth-science-data-category) - the category(s) of data contained in the report
 4. [Geoadmin Feature](https://vocabs.gsq.digital/vocabulary/gsq-features)
@@ -79,7 +79,7 @@ The vocabularies used in this profile are:
 | QDEX Reports Field   | New Metadata Field                                    |
 |----------------------|-------------------------------------------------------|
 | Report Title         | Title                                                 |
-| Report Type          | Resources Industry Report Type                        |
+| Report Type          | Resources Industry Report Type vocab                        |
 | Author Name          | dct:creator?                                          |
 | Lodger               | Recorded as logged-in-user                            |
 | Submitter            | Submitter (prov:wasAttributedTo)                      |
@@ -91,12 +91,12 @@ The vocabularies used in this profile are:
 | Tectonic             | Not required - can be derived using spatial intersect |
 | Stratigraphy         | Select from stratigraphy vocabulary?                  |
 | Age                  | Not required - can be derived using spatial intersect |
-| Date of Report       | time:ProperInterval (hasStartTime + hasEndTime        |
+| Date of Report       | time:ProperInterval (hasStartTime + hasEndTime)        |
 | Date of Receipt      | System recorded dct:created                           |
 | Project Names        | Free text?                                            |
-| Mines/Prospect Names | Lookup from sites register?                           |
-| Well Names           | Lookup from borehole register?                        |
-| Seismic Survey Names | Lookup?                                               |
+| Mines/Prospect Names | Lookup from sites register                           |
+| Well Names           | Lookup from borehole register                        |
+| Seismic Survey Names | Lookup to survey register                                               |
 
 
 ## Licence
